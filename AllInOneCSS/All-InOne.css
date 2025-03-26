@@ -569,15 +569,6 @@
   color: white;
 }
 
-.hover-look-at-mouse {
-  transform: rotate3d(0, 0, 0, 0deg);
-  transition: transform var(--transition-duration) ease;
-}
-
-.hover-look-at-mouse:hover {
-  transform: rotate3d(0, 0, 1, 180deg);
-}
-
 .grid-col {
   display: grid;
   grid-template: repeat(auto-fit, auto-fit);
